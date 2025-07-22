@@ -1,0 +1,33 @@
+{
+  "name": "rrv7-ssr-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "dev:admin": "pnpm --filter @rrv7-ssr-monorepo/admin dev",
+    "dev:web": "pnpm --filter @rrv7-ssr-monorepo/web dev",
+    "build:admin": "pnpm --filter @rrv7-ssr-monorepo/admin build",
+    "build:web": "pnpm --filter @rrv7-ssr-monorepo/web build",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "db:generate": "pnpm --filter @rrv7-ssr-monorepo/database db:generate",
+    "db:push": "pnpm --filter @rrv7-ssr-monorepo/database db:push",
+    "db:migrate": "pnpm --filter @rrv7-ssr-monorepo/database db:migrate",
+    "db:studio": "pnpm --filter @rrv7-ssr-monorepo/database db:studio"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@9.7.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "author": "hideaki.kawai",
+  "license": "ISC",
+  "description": ""
+}

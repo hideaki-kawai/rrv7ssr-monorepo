@@ -1,0 +1,65 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":dependencyDashboard",
+    ":automergePatch",
+    ":automergePr"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": [
+    "after 10pm every weekday",
+    "every weekend",
+    "before 5am every weekday"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "packageRules": [
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    },
+    {
+      "description": "Group React and React Router updates",
+      "groupName": "React and React Router",
+      "matchPackageNames": [
+        "/^react/",
+        "/^@react-router/"
+      ]
+    },
+    {
+      "description": "Group Vite related updates",
+      "groupName": "Vite",
+      "matchPackageNames": [
+        "/^vite/",
+        "/^@vitejs/"
+      ]
+    },
+    {
+      "description": "Group Hono related updates",
+      "groupName": "Hono",
+      "matchPackageNames": [
+        "/^hono/",
+        "/^@hono/"
+      ]
+    },
+    {
+      "description": "Group TypeScript related updates",
+      "matchPackageNames": [
+        "typescript",
+        "@types/node"
+      ],
+      "groupName": "TypeScript"
+    }
+  ],
+  "prConcurrentLimit": 3,
+  "rangeStrategy": "bump",
+  "postUpdateOptions": [
+    "pnpmDedupe"
+  ]
+}
