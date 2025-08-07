@@ -12,7 +12,7 @@ importers:
         specifier: ^20.19.9
         version: 20.19.9
       turbo:
-        specifier: ^2.3.7
+        specifier: ^2.5.5
         version: 2.5.5
       typescript:
         specifier: ^5.8.3
