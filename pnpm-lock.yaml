@@ -46,7 +46,7 @@ importers:
         specifier: ^7.8.0
         version: 7.8.0(@react-router/serve@7.8.0(react-router@7.8.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(typescript@5.8.3))(@types/node@20.19.10)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.1(react@19.1.1))(react-router@7.8.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(tsx@4.20.3)(typescript@5.8.3)(vite@6.3.5(@types/node@20.19.10)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.20.3))
       '@tailwindcss/vite':
-        specifier: ^4.1.4
+        specifier: ^4.1.11
         version: 4.1.11(vite@6.3.5(@types/node@20.19.10)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.20.3))
       '@types/node':
         specifier: ^20.19.10
@@ -58,7 +58,7 @@ importers:
         specifier: ^19.1.7
         version: 19.1.7(@types/react@19.1.9)
       tailwindcss:
-        specifier: ^4.1.4
+        specifier: ^4.1.11
         version: 4.1.11
       typescript:
         specifier: ^5.8.3
@@ -98,7 +98,7 @@ importers:
         specifier: ^7.8.0
         version: 7.8.0(@react-router/serve@7.8.0(react-router@7.8.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(typescript@5.8.3))(@types/node@20.19.10)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@19.1.1(react@19.1.1))(react-router@7.8.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(tsx@4.20.3)(typescript@5.8.3)(vite@6.3.5(@types/node@20.19.10)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.20.3))
       '@tailwindcss/vite':
-        specifier: ^4.1.4
+        specifier: ^4.1.11
         version: 4.1.11(vite@6.3.5(@types/node@20.19.10)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.20.3))
       '@types/node':
         specifier: ^20.19.10
@@ -110,7 +110,7 @@ importers:
         specifier: ^19.1.7
         version: 19.1.7(@types/react@19.1.9)
       tailwindcss:
-        specifier: ^4.1.4
+        specifier: ^4.1.11
         version: 4.1.11
       typescript:
         specifier: ^5.8.3
